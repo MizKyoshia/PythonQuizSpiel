@@ -39,7 +39,7 @@ Gaming = [
         "antwort": "a"
     }, {
         "frage": """Wie heißen die Hauptfiguren von GTAV?
-        a) Michael, John, Trvor b) Michael, Jordan, Jim c) Michael, Trevor, Franklin""",
+        a) Michael, John, Trevor b) Michael, Jordan, Jim c) Michael, Trevor, Franklin""",
         "antwort": "c"
     }, {
         "frage": """Welches Spiel gewann den Preis "Game of the Year 2018"?
@@ -90,7 +90,7 @@ def fragenAuswahl(fragenKatalog):
         print("Richtige Antwort!")
         score +=1
     else:
-        print(f"Du liegst leider falsch.Die richtige Antwort wäre '{frage['antwort']}'gewesen!")      #f->als Präfix, damit {} nicht als String ausgegeben werden
+        print(f"Du liegst leider falsch.Die richtige Antwort wäre '{frage['antwort']}'gewesen!")      #f->als Präfix, damit {} nicht als String ausgegeben werden (Quelle im readme)
 
 #Ranglistenanzeige
 def zeigeRangliste():
@@ -120,10 +120,10 @@ def main():
             print("Viel Spaß beim Fragenkatalog zur Hardware!")
             for i in range(5):
                 fragenAuswahl(Hardware)         #Ausgabe der Fragen
-            print(f"Das Spiel ist beendet! Dein Punktestand liegt bei {score}")     #Anzeige des scores der aktuell beendeten Spielrunde
+            print(f"Das Spiel ist beendet! Dein Punktestand dieser Runde liegt bei {score}")     #Anzeige des scores der aktuell beendeten Spielrunde
             for eintrag in rangliste:
                 if eintrag["name"] == spielername:
-                    eintrag["punkte"] = score       #Einschreibung des scores in Rangliste als Punkte
+                    eintrag["punkte"] = eintrag["punkte"] + score       #Einschreibung des scores in Rangliste als Punkte
                     break
             zeigeRangliste()
             score = 0
@@ -132,10 +132,10 @@ def main():
             print("Viel Spaß beim Fragenkatalog zum Gaming!")
             for i in range(5):
                 fragenAuswahl(Gaming)           #Ausgabe der Fragen
-            print(f"Das Spiel ist beendet! Dein Punktestand liegt bei {score}")     #Anzeige des scores der aktuell beendeten Spielrunde
+            print(f"Das Spiel ist beendet! Dein Punktestand dieser Runde liegt bei {score}")     #Anzeige des scores der aktuell beendeten Spielrunde
             for eintrag in rangliste:
                 if eintrag["name"] == spielername:
-                    eintrag["punkte"] = score       #Einschreibung des scores in Rangliste als Punkte
+                    eintrag["punkte"] = eintrag["punkte"] + score       #Einschreibung des scores in Rangliste als Punkte
                     break
             zeigeRangliste()
             score = 0
@@ -144,10 +144,10 @@ def main():
             print("Viel Spaß beim Fragenkatalog zur Musik")
             for i in range(5):
                 fragenAuswahl(Musik)            #Ausgabe der Fragen
-            print(f"Das Spiel ist beendet! Dein Punktestand liegt bei {score}")     #Anzeige des scores der aktuell beendeten Spielrunde
+            print(f"Das Spiel ist beendet! Dein Punktestand dieser Runde liegt bei {score}")     #Anzeige des scores der aktuell beendeten Spielrunde
             for eintrag in rangliste:
                 if eintrag["name"] == spielername:
-                    eintrag["punkte"] = score       #Einschreibung des scores in Rangliste als Punkte
+                    eintrag["punkte"] = eintrag["punkte"] + score       #Einschreibung des scores in Rangliste als Punkte
                     break
             zeigeRangliste()
             score = 0

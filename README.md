@@ -8,7 +8,8 @@ Auswahlmenü mit 4 Auswahlmöglichkeiten und inklusive 3 verschiedene Fragenkata
 2. Gaming
 3. Musik
 
-Ranglistensystem mit einmaligem Eintragen des Benutzernamens und einer Anzeige der Gesamtpunktzahl bei Beendigung des aktuellen Fragenkatalogs und allgemein dem Programm.
+RANGLISTENSYSTEM:
+mit einmaligem Eintragen des Benutzernamens und einer Anzeige der Gesamtpunktzahl bei Beendigung des aktuellen Fragenkatalogs und allgemein dem Programm.
 
 ARBEITSPROTOKOLL:
 1. Fragenkatalog & Ranglistensystem: Lucio S.

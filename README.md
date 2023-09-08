@@ -11,15 +11,18 @@ Auswahlmenü mit 4 Möglichkeiten
 Ranglistensystem mit einmaligem Eintragen des Benutzernamens und einer Anzeige der Gesamtpunktzahl bei Beendigung des aktuellen Fragenkatalogs und allgemein dem Programm.
 
 ARBEITSPROTOKOLL:
-Fragenkatalog & Ranglistensystem: Lucio S.
-Fragenkatalog & Fragenauswahlfunktion: Arthur S.
-Hauptschleife & Debugging: Lukas B.
+1. Fragenkatalog & Ranglistensystem: Lucio S.
+2. Fragenkatalog & Fragenauswahlfunktion: Arthur S.
+3. Hauptschleife & Debugging: Lukas B.
 
 => Programmübergreifende Funktionen wurden gemeinsam eingepflegt.
 
 HINWEISE:
-Programm ist optimiert, bzw. getestet für Visual Studio Code; PyTo(IPad); Online Python Compiler (https://www.programiz.com/python-programming/online-compiler/)
+Programm ist optimiert, bzw. getestet für:
+1. Visual Studio Code
+2. PyTo(IPad)
+3. Online Python Compiler (https://www.programiz.com/python-programming/online-compiler/)
 
 CODE-QUELLEN:
-f-Präfix: Real Python, Python 3's F-Strings: An Improved String Formatting Syntax (Guide), by Joanna Jablonski, https://realpython.com/python-f-strings/ , zul. zug. am 08.09.2023
-global-Variable: W3Schools, Python Global Variables , https://www.w3schools.com/python/gloss_python_global_variables.asp, zul. zug. am 08.09.2023
+1. f-Präfix: Real Python, Python 3's F-Strings: An Improved String Formatting Syntax (Guide), by Joanna Jablonski, https://realpython.com/python-f-strings/ , zul. zug. am 08.09.2023
+2. global-Variable: W3Schools, Python Global Variables , https://www.w3schools.com/python/gloss_python_global_variables.asp, zul. zug. am 08.09.2023

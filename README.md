@@ -3,8 +3,7 @@
 Unser Projekt ist ein Quizspiel in Python erstellt von Lukas B., Arthur S. und Lucio S.
 
 FUNKTIONEN/INHALTE:
-Auswahlmenü mit 4 Möglichkeiten
-3 verschiedene Fragenkataloge:
+Auswahlmenü mit 4 Auswahlmöglichkeiten und inklusive 3 verschiedene Fragenkataloge:
 1. Hardware
 2. Gaming
 3. Musik
